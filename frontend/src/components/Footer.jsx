@@ -9,10 +9,11 @@ function Footer() {
         <div>
           <img className=" mb-2.5 w-60" src={assets.logo} alt="" />
           <p className="w-full md:w-2/3 text-gray-600 leading-6">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book.
+           HealthMate is a simple and reliable platform to book doctor appointments online. We connect you with verified specialists across various fields—quickly, securely, and hassle-free.
+
+With real-time availability, clear doctor profiles, and easy booking, your health is just a few clicks away.
+
+Book smart. Stay healthy.
           </p>
         </div>
         {/* -------- center section    --------------- */}
@@ -29,15 +30,15 @@ function Footer() {
         <div>
           <p className="text-xl font-medium mt-5 mb-5">GET IN TOUCH</p>
           <ul className="flext flex-col gap-2 text-gray-600">
-            <li>+1-212-456-7890</li>
-            <li>greatstackdev@gmail.com</li>
+            <li>9172359471</li>
+            <li>healthmate@gmail.com</li>
           </ul>
         </div>
       </div>
       {/* -------- Copyright text   -------------- */}
       <div>
         <hr />
-        <p className="py-5 text-sm text-center">Copyright © 2024 GreatStack - All Right Reserved.</p>
+        <p className="py-5 text-sm text-center">Copyright © 2024 HealthMate - All Right Reserved.</p>
       </div>
     </div>
   );

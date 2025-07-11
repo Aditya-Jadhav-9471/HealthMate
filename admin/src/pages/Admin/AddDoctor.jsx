@@ -154,6 +154,21 @@ function AddDoctor() {
                 <option value="8 Year">8 Year</option>
                 <option value="9 Year">9 Year</option>
                 <option value="10 Year">10 Year</option>
+                <option value="11 Year">11 Year</option>
+                <option value="12 Year">12 Year</option>
+                <option value="13 Year">13 Year</option>
+                <option value="14 Year">14 Year</option>
+                <option value="15 Year">15 Year</option>
+                <option value="16 Year">16 Year</option>
+                <option value="17 Year">17 Year</option>
+                <option value="18 Year">18 Year</option>
+                <option value="19 Year">19 Year</option>
+                <option value="20 Year">20 Year</option>
+                <option value="21 Year">21 Year</option>
+                <option value="22 Year">22 Year</option>
+                <option value="23 Year">23 Year</option>
+                <option value="24 Year">24 Year</option>
+                <option value="25 Year">25 Year</option>
               </select>
             </div>
 
