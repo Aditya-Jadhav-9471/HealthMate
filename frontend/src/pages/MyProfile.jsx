@@ -1,4 +1,4 @@
-import React, { useState, useContext } from "react";
+import React, { useState, useContext, useEffect } from "react";
 import { AppContext } from "../context/AppContext";
 import { assets } from "../assets/assets";
 import { toast } from "react-toastify";
@@ -37,6 +37,12 @@ function MyProfile() {
       toast.error(error.message);
     }
   };
+
+  useEffect(() => {
+  if (userData && !userData.gender) {
+    setUserData((prev) => ({ ...prev, gender: "Male" }));
+  }
+}, [userData]);
 
   return (
     userData && (
