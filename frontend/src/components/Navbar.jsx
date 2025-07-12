@@ -36,20 +36,34 @@ function Navbar() {
       />
 
       {/* Navigation Links */}
-      <ul className="hidden md:flex items-start gap-5 font-medium">
-        <NavLink to="/">
-          <li className="py-1">HOME</li>
-        </NavLink>
-        <NavLink to="/doctors">
-          <li className="py-1">ALL DOCTORS</li>
-        </NavLink>
-        <NavLink to="/about">
-          <li className="py-1">ABOUT</li>
-        </NavLink>
-        <NavLink to="/contact">
-          <li className="py-1">CONTACT</li>
-        </NavLink>
-      </ul>
+<ul className="hidden md:flex items-start gap-5 font-medium">
+  <NavLink to="/">
+    <li className="py-1">HOME</li>
+  </NavLink>
+  <NavLink to="/doctors">
+    <li className="py-1">ALL DOCTORS</li>
+  </NavLink>
+  <NavLink to="/about">
+    <li className="py-1">ABOUT</li>
+  </NavLink>
+  <NavLink to="/contact">
+    <li className="py-1">CONTACT</li>
+  </NavLink>
+  
+  {/* Admin Login Button */}
+<li>
+  <a
+    href="https://healthmate-admin-usjs.onrender.com"
+    target="_blank"
+    rel="noopener noreferrer"
+    title="Admin credentials required to access the panel"
+    className="whitespace-nowrap ml-2 px-3 py-1.5 rounded-full text-sm font-semibold text-blue-600 border border-blue-500 bg-white shadow-md hover:bg-blue-50 hover:shadow-lg transition-all duration-200"
+  >
+    Admin Panel
+  </a>
+</li>
+</ul>
+
 
       {/* Profile and Menu Icon */}
       <div className="flex items-center gap-4">
@@ -137,6 +151,16 @@ function Navbar() {
             <NavLink onClick={() => setShowMenu(false)} to="/contact">
               <p className="px-4 py-2 rounded inline-block">CONTACT</p>
             </NavLink>
+
+            <a
+  href="https://healthmate-admin-usjs.onrender.com"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="mt-4 w-full max-w-[200px] text-center px-4 py-2 rounded-full text-sm font-semibold text-blue-600 border border-blue-500 bg-white shadow-md hover:bg-blue-50 hover:shadow-lg transition-all duration-200"
+>
+  Admin Panel
+</a>
+
           </ul>
         </div>
       </div>
